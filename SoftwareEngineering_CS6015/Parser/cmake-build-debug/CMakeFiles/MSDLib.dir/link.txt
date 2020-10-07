@@ -1,0 +1,2 @@
+/Library/Developer/CommandLineTools/usr/bin/ar qc libMSDLib.a  CMakeFiles/MSDLib.dir/cont.cpp.o CMakeFiles/MSDLib.dir/env.cpp.o CMakeFiles/MSDLib.dir/expr.cpp.o CMakeFiles/MSDLib.dir/parse.cpp.o CMakeFiles/MSDLib.dir/step.cpp.o CMakeFiles/MSDLib.dir/value.cpp.o
+/Library/Developer/CommandLineTools/usr/bin/ranlib libMSDLib.a

@@ -1,0 +1,26 @@
+ 1  192.168.1.1 (192.168.1.1)  2.307 ms  1.685 ms  1.885 ms
+ 2  10.26.2.42 (10.26.2.42)  2.621 ms  2.581 ms  2.489 ms
+ 3  23-255-225-20.mci.googlefiber.net (23.255.225.20)  2.502 ms  2.615 ms  2.505 ms
+ 6  23-255-225-164.mci.googlefiber.net (23.255.225.164)  21.819 ms  17.232 ms  18.109 ms
+ 7  ix-ae-61-0.tcore1.sqn-san-jose.as6453.net (216.6.33.138)  21.504 ms  21.170 ms  16.949 ms
+ 8  63.243.205.10 (63.243.205.10)  51.509 ms  17.210 ms  17.316 ms
+ 9  ae16.cr1.sjc2.us.zip.zayo.com (64.125.31.12)  18.149 ms  18.221 ms  18.115 ms
+10  ae27.cs1.sjc2.us.eth.zayo.com (64.125.30.230)  70.012 ms  70.534 ms  70.407 ms
+11  ae2.cs1.lax112.us.eth.zayo.com (64.125.28.145)  69.861 ms  69.881 ms  70.066 ms
+12  ae3.cs1.dfw2.us.eth.zayo.com (64.125.29.52)  70.113 ms  70.092 ms  203.021 ms
+13  ae5.cs1.iah1.us.eth.zayo.com (64.125.28.98)  80.097 ms  70.591 ms  70.750 ms
+14  ae3.cs1.dca2.us.eth.zayo.com (64.125.29.48)  69.665 ms  70.260 ms  71.286 ms
+15  ae27.cr1.dca2.us.zip.zayo.com (64.125.30.247)  70.312 ms  70.349 ms  70.313 ms
+16  ae7.er1.dca2.us.zip.zayo.com (64.125.26.174)  69.907 ms  70.405 ms  69.841 ms
+17  208.185.17.149.ipyx-137508-zyo.zip.zayo.com (208.185.17.149)  70.225 ms  70.546 ms  70.495 ms
+18  nwave-clpk-isp.demarc.maxgigapop.net (206.196.177.193)  70.302 ms  70.575 ms  69.948 ms
+19  lo-0.1.brtr.wash.nwave.noaa.gov (137.75.100.7)  70.830 ms  70.977 ms  70.378 ms
+20  137.75.68.19 (137.75.68.19)  71.214 ms  70.366 ms  71.380 ms
+21  irb.3903.rtr3.wash.nwave.noaa.gov (137.75.68.22)  71.013 ms  70.300 ms  71.316 ms
+22  ae-0.2.rtr2.wash.nwave.noaa.gov (140.172.70.102)  71.960 ms  72.859 ms  72.531 ms
+23  et-3-1-2.0.rtr.suit.nwave.noaa.gov (140.172.70.250)  72.719 ms  72.928 ms  73.023 ms
+24  et-2-0-2.0.rtr2.suit.nwave.noaa.gov (140.172.70.255)  72.496 ms  72.568 ms  71.989 ms
+25  140.208.255.122 (140.208.255.122)  72.303 ms  72.831 ms  72.587 ms
+26  137.75.68.14 (137.75.68.14)  74.172 ms  73.928 ms  73.523 ms
+27  140.90.76.178 (140.90.76.178)  72.972 ms  72.842 ms  72.682 ms
+

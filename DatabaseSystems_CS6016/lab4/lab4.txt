@@ -1,0 +1,29 @@
+Part 3.
+
+select Title from Titles where Author = ‘Rowling';
+select Serial from Inventory Natural Join Titles where Author = ‘Rowling';
+select Title from Titles as T Inner Join Inventory as I on T.ISBN = I.ISBN Inner Join CheckedOut as C on I.Serial = C.Serial Inner Join Patrons as P on C.CardNum = P.CardNum where Name = ‘Joe';
+select Phone from Phones Natural Join CheckedOut Natural Join Inventory Natural Join Titles where Title = 'The Lorax’;
+
+Part 4.
+
+select Title from Titles Natural Join Inventory ORDER BY Serial Limit N;
+select Name from Patrons Natural Join CheckedOut Order By Serial Desc Limit 1;
+select Phone from Phones Left Join CheckedOut On Phones.CardNum = CheckedOut.CardNum where CheckedOut.Serial is null;
+select ISBN, Title from Titles Natural Join Inventory Group By Title;
+
+Part 5.
+
+select Name from Patrons Natural Join CheckedOut Group By CardNum Order By count(*) Desc Limit 1;
+select Author from Titles Group By Author Having count(*) > 1;
+select Author from Titles Natural Join Inventory Group By Author Having count(*) > 1;
+
+Part 6.
+
+select Name From Players Where Elo >= 2850;
+select distinct  name from Players Inner Join Games On Players.pID = Games.WhitePlayer;
+select distinct Name from Players Inner Join Games on Players.pID = Games.WhitePlayer where Result = ‘W';
+Select distinct p.Name from Players as p inner join(Select g.BlackPlayer from Games as g Natural Join (Select eID from Events where year(Date)=2018) as Events2018) as bp2018 on p.pID = bp2018.BlackPlayer union Select p.Name from Players as p inner join(Select g.WhitePlayer from Games as g Natural Join (Select eID from Events where year(Date)=2018) as Events2018) as wp2018 on p.pID = wp2018.WhitePlayer;
+select e.Name, e.Date from Events as e inner join(select distinct g.eID from Games as g inner join (select p.pID from Players as p where p.Name = "Carlsen, Magnus") as mID on g.WhitePlayer = mID.pID where g.Result = "B" union select distinct g.eID from Games as g inner join (select p.pID from Players as p where p.Name = "Carlsen, Magnus") as mID on g.BlackPlayer = mID.pID where g.Result = "W") as u on e.eID=u.eID;
+select p.Name from Players as p inner join(select Games.BlackPlayer from Players inner join Games on Players.pID=Games.WhitePlayer where Players.Name = 'Carlsen, Magnus') as gid on gid.BlackPlayer=p.pID union select p.Name from Players as p inner join(select Games.WhitePlayer from Players inner join Games on Players.pID=Games.BlackPlayer where Players.Name = 'Carlsen, Magnus') as gid on gid.WhitePlayer=p.pID;
+

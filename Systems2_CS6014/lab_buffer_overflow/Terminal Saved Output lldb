@@ -1,0 +1,110 @@
+Last login: Mon Mar 23 08:02:32 on ttys002
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Dereks-MBP:~ derekolson$ cd DerekOlson/CS6014/lab_buffer_overflow
+(base) Dereks-MBP:lab_buffer_overflow derekolson$ lldb  ./a.out
+(lldb) target create "./a.out"
+Current executable set to './a.out' (x86_64).
+(lldb) b login
+Breakpoint 1: 2 locations.
+(lldb) run command line args
+Process 1360 launched: '/Users/derekolson/DerekOlson/CS6014/lab_buffer_overflow/a.out' (x86_64)
+Process 1360 stopped
+* thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
+    frame #0: 0x0000000100000de6 a.out`login at login.c:21:12
+   18  	
+   19  	int login(){
+   20  	  char password[32];
+-> 21  	  int fd = open("password.txt", O_RDONLY);
+   22  	  printf("enter your password:\n");
+   23  	  int pwLen = read(fd, password, 1000); //just read the whole file...
+   24  	  close(fd);
+Target 0: (a.out) stopped.
+(lldb) bt
+* thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
+  * frame #0: 0x0000000100000de6 a.out`login at login.c:21:12
+    frame #1: 0x0000000100000e71 a.out`main at login.c:30:13
+    frame #2: 0x00007fff7117b7fd libdyld.dylib`start + 1
+(lldb) x -c 0x50 $rsp
+0x7ffeefbff7d0: 40 f8 bf ef fe 7f 00 00 28 f8 bf ef fe 7f 00 00  @????...(????...
+0x7ffeefbff7e0: 00 00 00 00 04 00 00 00 00 00 00 00 00 00 00 00  ................
+0x7ffeefbff7f0: 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00  ................
+0x7ffeefbff800: 00 00 00 00 00 00 00 00 71 0e 00 00 01 00 00 00  ........q.......
+0x7ffeefbff810: 30 f8 bf ef fe 7f 00 00 25 40 00 00 01 00 00 00  0????...%@......
+(lldb) ^C
+(lldb) exit
+Quitting LLDB will kill one or more processes. Do you really want to proceed: [Y/n] y
+(base) Dereks-MBP:lab_buffer_overflow derekolson$ lldb ./a.out
+(lldb) target create "./a.out"
+Current executable set to './a.out' (x86_64).
+(lldb) b login
+Breakpoint 1: 2 locations.
+(lldb) run 
+Process 1455 launched: '/Users/derekolson/DerekOlson/CS6014/lab_buffer_overflow/a.out' (x86_64)
+Process 1455 stopped
+* thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
+    frame #0: 0x0000000100000de6 a.out`login at login.c:21:12
+   18  	
+   19  	int login(){
+   20  	  char password[32];
+-> 21  	  int fd = open("password.txt", O_RDONLY);
+   22  	  printf("enter your password:\n");
+   23  	  int pwLen = read(fd, password, 1000); //just read the whole file...
+   24  	  close(fd);
+Target 0: (a.out) stopped.
+(lldb) bt
+* thread #1, queue = 'com.apple.main-thread', stop reason = breakpoint 1.1
+  * frame #0: 0x0000000100000de6 a.out`login at login.c:21:12
+    frame #1: 0x0000000100000e71 a.out`main at login.c:30:13
+    frame #2: 0x00007fff7117b7fd libdyld.dylib`start + 1
+    frame #3: 0x00007fff7117b7fd libdyld.dylib`start + 1
+(lldb) s
+Process 1455 stopped
+* thread #1, queue = 'com.apple.main-thread', stop reason = step in
+    frame #0: 0x0000000100000df8 a.out`login at login.c:22:3
+   19  	int login(){
+   20  	  char password[32];
+   21  	  int fd = open("password.txt", O_RDONLY);
+-> 22  	  printf("enter your password:\n");
+   23  	  int pwLen = read(fd, password, 1000); //just read the whole file...
+   24  	  close(fd);
+   25  	  return memcmp(password, "superSecretPassword", pwLen) == 0;
+Target 0: (a.out) stopped.
+(lldb) s
+enter your password:
+Process 1455 stopped
+* thread #1, queue = 'com.apple.main-thread', stop reason = step in
+    frame #0: 0x0000000100000e0b a.out`login at login.c:23:20
+   20  	  char password[32];
+   21  	  int fd = open("password.txt", O_RDONLY);
+   22  	  printf("enter your password:\n");
+-> 23  	  int pwLen = read(fd, password, 1000); //just read the whole file...
+   24  	  close(fd);
+   25  	  return memcmp(password, "superSecretPassword", pwLen) == 0;
+   26  	}
+Target 0: (a.out) stopped.
+(lldb) s
+Process 1455 stopped
+* thread #1, queue = 'com.apple.main-thread', stop reason = step in
+    frame #0: 0x0000000100000e23 a.out`login at login.c:24:9
+   21  	  int fd = open("password.txt", O_RDONLY);
+   22  	  printf("enter your password:\n");
+   23  	  int pwLen = read(fd, password, 1000); //just read the whole file...
+-> 24  	  close(fd);
+   25  	  return memcmp(password, "superSecretPassword", pwLen) == 0;
+   26  	}
+   27  	
+Target 0: (a.out) stopped.
+(lldb) x -x 0x50 $rsp
+error: Normally, 'memory read' will not read over 1024 bytes of data.
+error: Please use --force to override this restriction just once.
+error: or set target.max-memory-read-size if you will often need a larger limit.
+(lldb) x -c 0x50 $rsp
+0x7ffeefbff7f0: 68 f8 bf ef 15 00 00 00 2d 00 00 00 03 00 00 00  h???....-.......
+0x7ffeefbff800: 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61  aaaaaaaaaaaaaaaa
+0x7ffeefbff810: 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61 61  aaaaaaaaaaaaaaaa
+0x7ffeefbff820: 61 61 61 61 61 61 61 61 de ad be ef 0a 00 00 00  aaaaaaaaޭ??....
+0x7ffeefbff830: 58 f8 bf ef fe 7f 00 00 25 40 00 00 01 00 00 00  X????...%@......
+(lldb) 

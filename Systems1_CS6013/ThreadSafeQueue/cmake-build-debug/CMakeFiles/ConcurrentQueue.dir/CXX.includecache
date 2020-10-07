@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/derekolson/DerekOlson/CS6013/ThreadSafeQueue/ConcurrentQueue.h
+mutex
+-
+
+/Users/derekolson/DerekOlson/CS6013/ThreadSafeQueue/concurrentQueueTests.cpp
+vector
+-
+thread
+-
+iostream
+-
+ConcurrentQueue.h
+/Users/derekolson/DerekOlson/CS6013/ThreadSafeQueue/ConcurrentQueue.h
+

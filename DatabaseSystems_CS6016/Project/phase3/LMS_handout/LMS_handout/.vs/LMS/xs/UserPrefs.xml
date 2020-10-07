@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{0938F8A8-3504-4270-AD0D-3155FE513CEA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="LMS/Models/LMSModels/Team12LMSContext.cs">
+    <Files>
+      <File FileName="LMS/Models/LMSModels/Team12LMSContext.cs" Line="1" Column="1" />
+      <File FileName="LMS/Models/LMSModels/Classes.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="LMS" expanded="True">
+            <Node name="LMS" expanded="True">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="LMSModels" expanded="True">
+                  <Node name="Team12LMSContext.cs" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.LMS PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

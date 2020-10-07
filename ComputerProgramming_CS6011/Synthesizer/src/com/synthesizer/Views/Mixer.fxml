@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.geometry.Insets?>
+<VBox fx:id="mixerControl" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.synthesizer.Views.MixerController"
+      prefHeight="100.0" prefWidth="200.0" spacing="10" alignment="CENTER"
+      style="-fx-border-color:black" onDragDetected="#drag" id="mixerControl">
+    <children>
+        <HBox spacing="20">
+            <padding><Insets left="20" top="40" bottom="20" right="20"/></padding>
+            <Circle id="mixerJackInput" fx:id="mixerJackInput" styleClass="audioJack" radius="10" onDragDone="#connectInput" onMousePressed="#consume" onMouseReleased="#connect"/>
+            <HBox id="mixerImageContainer" minWidth="150" prefHeight="75">
+                <Label fx:id="label" text="Mixer"></Label>
+            </HBox>
+            <Circle id="mixerJackOutput" fx:id="mixerJackOutput" styleClass="audioJack" radius="10" onMousePressed="#consume" />
+        </HBox>
+    </children>
+</VBox>

@@ -1,0 +1,10 @@
+Test,Method,Size,Time
+addAll,bad,10,10881981014
+addAll,med,10,34035218595
+addAll,good,10,22719285881
+addAll,bad,100,6637975834
+addAll,med,100,4253073976
+addAll,good,100,20781533357
+addAll,bad,1000,6520733055
+addAll,med,1000,871796160
+addAll,good,1000,32171803409

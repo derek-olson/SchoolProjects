@@ -1,0 +1,110 @@
+Last login: Sat Mar 21 09:06:27 on ttys001
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Dereks-MBP:~ derekolson$ cd DerekOlson
+(base) Dereks-MBP:DerekOlson derekolson$ git add -A
+(base) Dereks-MBP:DerekOlson derekolson$ git commit -m "TLSlite"
+[master 48b948e] TLSlite
+ 75 files changed, 183 insertions(+), 5957 deletions(-)
+ rewrite CS6014/HW_4/out/production/HW_4/com/company/Client.class (92%)
+ rewrite CS6014/HW_4/out/production/HW_4/com/company/Main.class (100%)
+ rewrite CS6014/HW_4/out/production/HW_4/com/company/Server.class (94%)
+ rewrite CS6014/HW_4/src/com/company/Client.java (67%)
+ rewrite CS6014/HW_4/src/com/company/Server.java (69%)
+ delete mode 100644 CS6014/buffer_overflow/.idea/.gitignore
+ delete mode 100644 CS6014/buffer_overflow/.idea/buffer_overflow.iml
+ delete mode 100644 CS6014/buffer_overflow/.idea/misc.xml
+ delete mode 100644 CS6014/buffer_overflow/.idea/modules.xml
+ delete mode 100644 CS6014/buffer_overflow/.idea/vcs.xml
+ delete mode 100644 CS6014/buffer_overflow/CMakeLists.txt
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeCache.txt
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake
+ delete mode 100755 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin
+ delete mode 100755 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/CMakeOutput.log
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/Makefile.cmake
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/Makefile2
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/TargetDirectories.txt
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/buffer_overflow.dir/DependInfo.cmake
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/buffer_overflow.dir/build.make
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/buffer_overflow.dir/cmake_clean.cmake
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/buffer_overflow.dir/depend.make
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/buffer_overflow.dir/flags.make
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/buffer_overflow.dir/link.txt
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/buffer_overflow.dir/progress.make
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/clion-environment.txt
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/clion-log.txt
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/cmake.check_cache
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/CMakeFiles/progress.marks
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/Makefile
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/buffer_overflow.cbp
+ delete mode 100644 CS6014/buffer_overflow/cmake-build-debug/cmake_install.cmake
+ delete mode 100644 CS6014/buffer_overflow/main.cpp
+ delete mode 100644 CS6015/untitled/.idea/.gitignore
+ delete mode 100644 CS6015/untitled/.idea/misc.xml
+ delete mode 100644 CS6015/untitled/.idea/modules.xml
+ delete mode 100644 CS6015/untitled/.idea/untitled.iml
+ delete mode 100644 CS6015/untitled/.idea/vcs.xml
+ delete mode 100644 CS6015/untitled/CMakeLists.txt
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeCache.txt
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/3.15.3/CMakeCCompiler.cmake
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/3.15.3/CMakeCXXCompiler.cmake
+ delete mode 100755 CS6015/untitled/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_C.bin
+ delete mode 100755 CS6015/untitled/cmake-build-debug/CMakeFiles/3.15.3/CMakeDetermineCompilerABI_CXX.bin
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/3.15.3/CMakeSystem.cmake
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdC/CMakeCCompilerId.c
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/3.15.3/CompilerIdCXX/CMakeCXXCompilerId.cpp
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/CMakeDirectoryInformation.cmake
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/CMakeOutput.log
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/Makefile.cmake
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/Makefile2
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/TargetDirectories.txt
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/clion-environment.txt
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/clion-log.txt
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/cmake.check_cache
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/progress.marks
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/untitled.dir/DependInfo.cmake
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/untitled.dir/build.make
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/untitled.dir/cmake_clean.cmake
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/untitled.dir/depend.make
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/untitled.dir/flags.make
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/untitled.dir/link.txt
+ delete mode 100644 CS6015/untitled/cmake-build-debug/CMakeFiles/untitled.dir/progress.make
+ delete mode 100644 CS6015/untitled/cmake-build-debug/Makefile
+ delete mode 100644 CS6015/untitled/cmake-build-debug/cmake_install.cmake
+ delete mode 100644 CS6015/untitled/cmake-build-debug/untitled.cbp
+ delete mode 100644 CS6015/untitled/main.cpp
+(base) Dereks-MBP:DerekOlson derekolson$ git push origin master
+Enumerating objects: 41, done.
+Counting objects: 100% (41/41), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (14/14), done.
+Writing objects: 100% (21/21), 4.52 KiB | 4.52 MiB/s, done.
+Total 21 (delta 10), reused 0 (delta 0)
+remote: Resolving deltas: 100% (10/10), completed with 8 local objects.
+To https://github.com/UtahMSD/DerekOlson.git
+   510c931..48b948e  master -> master
+(base) Dereks-MBP:DerekOlson derekolson$ 
+  [Restored Mar 23, 2020 at 8:02:32 AM]
+Last login: Mon Mar 23 08:02:32 on ttys001
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Dereks-MBP:DerekOlson derekolson$ cd DerekOlson/CS6014/lab_buffer_overflow
+-bash: cd: DerekOlson/CS6014/lab_buffer_overflow: No such file or directory
+(base) Dereks-MBP:DerekOlson derekolson$ cd CS6014/lab_buffer_overflow
+(base) Dereks-MBP:lab_buffer_overflow derekolson$ ls
+CMakeLists.txt		cmake-build-debug	password.txt
+a.out			login.c
+a.out.dSYM		main.cpp
+(base) Dereks-MBP:lab_buffer_overflow derekolson$ python2 -c 'print "a"*40 + "\xde\xad\xbe\xef", ' > password.txt
+(base) Dereks-MBP:lab_buffer_overflow derekolson$ python2 -c 'print "a"*40 + "\x80\x0e\x00\x00\x01\x00\x00\x00", ' > password.txt
+(base) Dereks-MBP:lab_buffer_overflow derekolson$ 

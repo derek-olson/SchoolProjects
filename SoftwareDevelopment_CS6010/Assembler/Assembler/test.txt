@@ -1,0 +1,10 @@
+uint8_t IntToBinary(int x){
+    uint8_t outBinary = 0b0000;
+    if (x / 2 != 0){
+        IntToBinary(x / 2);
+    }
+    uint8_t temp = x % 2;
+    outBinary = outBinary << 1 | temp;
+    cout << outBinary << "\n";
+    return outBinary;
+}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane id="main" xmlns:fx="http://javafx.com/fxml"  fx:id="borderPane"
+             fx:controller="com.synthesizer.Views.ContainerController"
+             minHeight="750.0" minWidth="700.0" >
+        <Pane BorderPane.alignment="CENTER" fx:id="pane" onDragDetected="#connectAudioComponents" onMouseReleased="#resumeDrag">
+            <fx:include fx:id="SineWave" source="SineWave.fxml" visible="false"/>
+            <HBox spacing="7" alignment="CENTER">
+                <padding><Insets left="10" top="10" bottom="10" right="10"/></padding>
+                <Button id="sine" fx:id="addSineWaveController" onAction="#addSineWaveController" minWidth="100" minHeight="75"/>
+                <Button id="square" fx:id="addSquareWaveController" onAction="#addSquareWaveController" minWidth="100" minHeight="75"/>
+                <HBox minWidth="145"/>
+                <Button id="mixer" fx:id="addMixerController" onAction="#addMixerController" minWidth="100" minHeight="75" text="Mixer"/>
+                <Button id="volume" fx:id="addVolumeController" onAction="#addVolumeController" minWidth="100" minHeight="75" text="Volume"/>
+                <Button id="speaker" fx:id="addSpeakerController" onAction="#addSpeakerController" minWidth="100" minHeight="75" text="Speaker"/>
+            </HBox>
+        </Pane>
+    <children>
+        <AnchorPane layoutX="200" layoutY="200" fx:id="anchorPane">
+
+        </AnchorPane>
+    </children>
+</BorderPane>

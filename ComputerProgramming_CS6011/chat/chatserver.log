@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-11-06T17:39:21.987591Z</date>
+  <millis>1573061961987</millis>
+  <nanos>591000</nanos>
+  <sequence>0</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.ChatServer</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>running</message>
+</record>
+<record>
+  <date>2019-11-06T17:39:41.826656Z</date>
+  <millis>1573061981826</millis>
+  <nanos>656000</nanos>
+  <sequence>1</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>13</thread>
+  <message>request from from client:</message>
+</record>
+<record>
+  <date>2019-11-06T17:39:41.835697Z</date>
+  <millis>1573061981835</millis>
+  <nanos>697000</nanos>
+  <sequence>2</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>&lt;init&gt;</method>
+  <thread>13</thread>
+  <message>request type: GET resource: /</message>
+</record>
+<record>
+  <date>2019-11-06T17:39:41.838458Z</date>
+  <millis>1573061981838</millis>
+  <nanos>458000</nanos>
+  <sequence>3</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.HTTPRequest</class>
+  <method>getResponseHeader</method>
+  <thread>13</thread>
+  <message>reponse header: HTTP/1.1 101 Switching Protocols
+Upgrade: websocket
+Connection: Upgrade
+Sec-WebSocket-Accept: 0igIxJh6MCWTfLepkRYDHidtFl8=
+
+</message>
+</record>
+<record>
+  <date>2019-11-06T17:39:41.840039Z</date>
+  <millis>1573061981840</millis>
+  <nanos>39000</nanos>
+  <sequence>4</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>&lt;init&gt;</method>
+  <thread>13</thread>
+  <message>websocket response sent</message>
+</record>
+<record>
+  <date>2019-11-06T17:39:41.841616Z</date>
+  <millis>1573061981841</millis>
+  <nanos>616000</nanos>
+  <sequence>5</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>serve</method>
+  <thread>13</thread>
+  <message>websocket serving</message>
+</record>
+<record>
+  <date>2019-11-06T17:39:41.859588Z</date>
+  <millis>1573061981859</millis>
+  <nanos>588000</nanos>
+  <sequence>6</sequence>
+  <logger>chatserver</logger>
+  <level>INFO</level>
+  <class>chatserver.Connection</class>
+  <method>processWebSocket</method>
+  <thread>13</thread>
+  <message>message length: 16</message>
+</record>
+<record>
+  <date>2019-11-06T17:39:41.860860Z</date>
+  <millis>1573061981860</millis>
+  <nanos>860000</nanos>
+  <sequence>7</sequence>
+  <logger>chatserver</logger>
+  <level>WARNING</level>
+  <class>chatserver.Connection</class>
+  <method>processText</method>
+  <thread>13</thread>
+  <message>invalid chat request: join: derek test</message>
+</record>
+</log>

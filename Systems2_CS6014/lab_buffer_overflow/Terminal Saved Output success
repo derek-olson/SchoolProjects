@@ -1,0 +1,24 @@
+Last login: Mon Mar 23 10:10:29 on ttys003
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) Dereks-MBP:~ derekolson$ cd DerekOlson/CS6014/lab_buffer_overflow
+(base) Dereks-MBP:lab_buffer_overflow derekolson$ ./a.out
+enter your password:
+Segmentation fault: 11
+(base) Dereks-MBP:lab_buffer_overflow derekolson$ ./a.out
+enter your password:
+successful login!
+
+sh-3.2$ 
+
+
+
+
+
+
+
+
+
+

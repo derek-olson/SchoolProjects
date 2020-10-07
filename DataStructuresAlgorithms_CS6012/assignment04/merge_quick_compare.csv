@@ -1,0 +1,589 @@
+Test, Size, Time
+Middle Pivot - Worst Case,100,462931
+Random Pivot - Worst Case,100,429813
+End Pivot - Worst Case,100,144955
+Mergesort - Best Case,100,79107
+Mergesort - Average Case,100,42848
+Mergesort - Worst Case,100,38385
+Middle Pivot - Worst Case,50100,13908248
+Random Pivot - Worst Case,50100,28196222
+End Pivot - Worst Case,50100,15542228
+Mergesort - Best Case,50100,19066881
+Mergesort - Average Case,50100,12871242
+Mergesort - Worst Case,50100,6661732
+Middle Pivot - Worst Case,100100,19845150
+Random Pivot - Worst Case,100100,27763886
+End Pivot - Worst Case,100100,4793221
+Mergesort - Best Case,100100,12463019
+Mergesort - Average Case,100100,22904339
+Mergesort - Worst Case,100100,7778176
+Middle Pivot - Worst Case,150100,5642136
+Random Pivot - Worst Case,150100,26710950
+End Pivot - Worst Case,150100,6571570
+Mergesort - Best Case,150100,12188190
+Mergesort - Average Case,150100,52678792
+Mergesort - Worst Case,150100,15576855
+Middle Pivot - Worst Case,200100,8335193
+Random Pivot - Worst Case,200100,32922308
+End Pivot - Worst Case,200100,9904945
+Mergesort - Best Case,200100,19815022
+Mergesort - Average Case,200100,19840921
+Mergesort - Worst Case,200100,19491849
+Middle Pivot - Worst Case,250100,9606590
+Random Pivot - Worst Case,250100,41793915
+End Pivot - Worst Case,250100,11574443
+Mergesort - Best Case,250100,23157019
+Mergesort - Average Case,250100,23998048
+Mergesort - Worst Case,250100,23140750
+Middle Pivot - Worst Case,300100,13864458
+Random Pivot - Worst Case,300100,49691996
+End Pivot - Worst Case,300100,13680367
+Mergesort - Best Case,300100,27919306
+Mergesort - Average Case,300100,28094386
+Mergesort - Worst Case,300100,27319274
+Middle Pivot - Worst Case,350100,14716765
+Random Pivot - Worst Case,350100,59058568
+End Pivot - Worst Case,350100,17282850
+Mergesort - Best Case,350100,39930329
+Mergesort - Average Case,350100,39377031
+Mergesort - Worst Case,350100,37728646
+Middle Pivot - Worst Case,400100,17253304
+Random Pivot - Worst Case,400100,70366747
+End Pivot - Worst Case,400100,19609106
+Mergesort - Best Case,400100,43004535
+Mergesort - Average Case,400100,46666781
+Mergesort - Worst Case,400100,44521507
+Middle Pivot - Worst Case,450100,19421461
+Random Pivot - Worst Case,450100,80603919
+End Pivot - Worst Case,450100,21717148
+Mergesort - Best Case,450100,50627490
+Mergesort - Average Case,450100,52109397
+Mergesort - Worst Case,450100,49970234
+Middle Pivot - Worst Case,500100,18750884
+Random Pivot - Worst Case,500100,86465316
+End Pivot - Worst Case,500100,22780666
+Mergesort - Best Case,500100,53572773
+Mergesort - Average Case,500100,58357806
+Mergesort - Worst Case,500100,54256862
+Middle Pivot - Worst Case,550100,22785707
+Random Pivot - Worst Case,550100,95671881
+End Pivot - Worst Case,550100,25152326
+Mergesort - Best Case,550100,59428817
+Mergesort - Average Case,550100,61189103
+Mergesort - Worst Case,550100,59142803
+Middle Pivot - Worst Case,600100,23179839
+Random Pivot - Worst Case,600100,104348717
+End Pivot - Worst Case,600100,28167315
+Mergesort - Best Case,600100,66193925
+Mergesort - Average Case,600100,67111923
+Mergesort - Worst Case,600100,64550658
+Middle Pivot - Worst Case,650100,29381321
+Random Pivot - Worst Case,650100,114720952
+End Pivot - Worst Case,650100,31197774
+Mergesort - Best Case,650100,81787128
+Mergesort - Average Case,650100,88111339
+Mergesort - Worst Case,650100,81191531
+Middle Pivot - Worst Case,700100,30879765
+Random Pivot - Worst Case,700100,125285323
+End Pivot - Worst Case,700100,35380356
+Mergesort - Best Case,700100,88301468
+Mergesort - Average Case,700100,92141167
+Mergesort - Worst Case,700100,87323540
+Middle Pivot - Worst Case,750100,32919500
+Random Pivot - Worst Case,750100,133367769
+End Pivot - Worst Case,750100,37388260
+Mergesort - Best Case,750100,137400056
+Mergesort - Average Case,750100,99657204
+Mergesort - Worst Case,750100,96874920
+Middle Pivot - Worst Case,800100,34075220
+Random Pivot - Worst Case,800100,143679820
+End Pivot - Worst Case,800100,39652440
+Mergesort - Best Case,800100,98801227
+Mergesort - Average Case,800100,105422643
+Mergesort - Worst Case,800100,100495714
+Middle Pivot - Worst Case,850100,40196156
+Random Pivot - Worst Case,850100,153593406
+End Pivot - Worst Case,850100,43115254
+Mergesort - Best Case,850100,110300774
+Mergesort - Average Case,850100,110796408
+Mergesort - Worst Case,850100,106047717
+Middle Pivot - Worst Case,900100,39877970
+Random Pivot - Worst Case,900100,166185376
+End Pivot - Worst Case,900100,47216968
+Mergesort - Best Case,900100,118138643
+Mergesort - Average Case,900100,120539250
+Mergesort - Worst Case,900100,116761138
+Middle Pivot - Worst Case,950100,44679733
+Random Pivot - Worst Case,950100,177687562
+End Pivot - Worst Case,950100,47129181
+Mergesort - Best Case,950100,121331962
+Mergesort - Average Case,950100,123491491
+Mergesort - Worst Case,950100,120337260
+Middle Pivot - Worst Case,1000100,42367276
+Random Pivot - Worst Case,1000100,183334246
+End Pivot - Worst Case,1000100,49450931
+Mergesort - Best Case,1000100,125708778
+Mergesort - Average Case,1000100,130154965
+Mergesort - Worst Case,1000100,124494767
+Middle Pivot - Worst Case,1050100,42440792
+Random Pivot - Worst Case,1050100,191423523
+End Pivot - Worst Case,1050100,50828893
+Mergesort - Best Case,1050100,131077370
+Mergesort - Average Case,1050100,136642443
+Mergesort - Worst Case,1050100,130776941
+Middle Pivot - Worst Case,1100100,45051471
+Random Pivot - Worst Case,1100100,201813304
+End Pivot - Worst Case,1100100,53585725
+Mergesort - Best Case,1100100,136837206
+Mergesort - Average Case,1100100,143103776
+Mergesort - Worst Case,1100100,139659515
+Middle Pivot - Worst Case,1150100,58168654
+Random Pivot - Worst Case,1150100,214935020
+End Pivot - Worst Case,1150100,56439384
+Mergesort - Best Case,1150100,146956862
+Mergesort - Average Case,1150100,159623744
+Mergesort - Worst Case,1150100,154562206
+Middle Pivot - Worst Case,1200100,65203713
+Random Pivot - Worst Case,1200100,237304066
+End Pivot - Worst Case,1200100,61676925
+Mergesort - Best Case,1200100,152455219
+Mergesort - Average Case,1200100,155405922
+Mergesort - Worst Case,1200100,165609664
+Middle Pivot - Worst Case,1250100,51219972
+Random Pivot - Worst Case,1250100,231932910
+End Pivot - Worst Case,1250100,66659783
+Mergesort - Best Case,1250100,169900839
+Mergesort - Average Case,1250100,165734957
+Mergesort - Worst Case,1250100,158878951
+Middle Pivot - Worst Case,1300100,74687578
+Random Pivot - Worst Case,1300100,256334306
+End Pivot - Worst Case,1300100,71988329
+Mergesort - Best Case,1300100,207213328
+Mergesort - Average Case,1300100,197152247
+Mergesort - Worst Case,1300100,186474513
+Middle Pivot - Worst Case,1350100,81818488
+Random Pivot - Worst Case,1350100,258258690
+End Pivot - Worst Case,1350100,69443949
+Mergesort - Best Case,1350100,237077843
+Mergesort - Average Case,1350100,227194693
+Mergesort - Worst Case,1350100,215796623
+Middle Pivot - Worst Case,1400100,62286541
+Random Pivot - Worst Case,1400100,262925159
+End Pivot - Worst Case,1400100,70372665
+Mergesort - Best Case,1400100,274858658
+Mergesort - Average Case,1400100,245468262
+Mergesort - Worst Case,1400100,238172490
+Middle Pivot - Worst Case,1450100,66620711
+Random Pivot - Worst Case,1450100,279358960
+End Pivot - Worst Case,1450100,77260432
+Mergesort - Best Case,1450100,294514485
+Mergesort - Average Case,1450100,248520785
+Mergesort - Worst Case,1450100,237554893
+Middle Pivot - Worst Case,1500100,74824483
+Random Pivot - Worst Case,1500100,280624876
+End Pivot - Worst Case,1500100,75193348
+Mergesort - Best Case,1500100,287204090
+Mergesort - Average Case,1500100,253320529
+Mergesort - Worst Case,1500100,239202042
+Middle Pivot - Worst Case,1550100,69808272
+Random Pivot - Worst Case,1550100,286452665
+End Pivot - Worst Case,1550100,78628227
+Mergesort - Best Case,1550100,303911712
+Mergesort - Average Case,1550100,264678909
+Mergesort - Worst Case,1550100,249498789
+Middle Pivot - Worst Case,1600100,72281814
+Random Pivot - Worst Case,1600100,304204083
+End Pivot - Worst Case,1600100,85709299
+Mergesort - Best Case,1600100,318769928
+Mergesort - Average Case,1600100,277236555
+Mergesort - Worst Case,1600100,255631465
+Middle Pivot - Worst Case,1650100,75820569
+Random Pivot - Worst Case,1650100,317571900
+End Pivot - Worst Case,1650100,83076559
+Mergesort - Best Case,1650100,313642619
+Mergesort - Average Case,1650100,275968883
+Mergesort - Worst Case,1650100,264562112
+Middle Pivot - Worst Case,1700100,75298678
+Random Pivot - Worst Case,1700100,317059448
+End Pivot - Worst Case,1700100,86290734
+Mergesort - Best Case,1700100,336045209
+Mergesort - Average Case,1700100,294912075
+Mergesort - Worst Case,1700100,286428997
+Middle Pivot - Worst Case,1750100,77022062
+Random Pivot - Worst Case,1750100,341119871
+End Pivot - Worst Case,1750100,91813792
+Mergesort - Best Case,1750100,360736991
+Mergesort - Average Case,1750100,305079822
+Mergesort - Worst Case,1750100,290553902
+Middle Pivot - Worst Case,1800100,82642208
+Random Pivot - Worst Case,1800100,340283767
+End Pivot - Worst Case,1800100,88475973
+Mergesort - Best Case,1800100,374890492
+Mergesort - Average Case,1800100,314319864
+Mergesort - Worst Case,1800100,291480045
+Middle Pivot - Worst Case,1850100,80236835
+Random Pivot - Worst Case,1850100,349673585
+End Pivot - Worst Case,1850100,92636487
+Mergesort - Best Case,1850100,362053665
+Mergesort - Average Case,1850100,307768598
+Mergesort - Worst Case,1850100,293588978
+Middle Pivot - Worst Case,1900100,81820009
+Random Pivot - Worst Case,1900100,365199126
+End Pivot - Worst Case,1900100,112819530
+Mergesort - Best Case,1900100,403422598
+Mergesort - Average Case,1900100,330915201
+Mergesort - Worst Case,1900100,326107132
+Middle Pivot - Worst Case,1950100,93126663
+Random Pivot - Worst Case,1950100,384058868
+End Pivot - Worst Case,1950100,96442901
+Mergesort - Best Case,1950100,423562487
+Mergesort - Average Case,1950100,341643289
+Mergesort - Worst Case,1950100,312246890
+Middle Pivot - Worst Case,2000100,87401902
+Random Pivot - Worst Case,2000100,393156302
+End Pivot - Worst Case,2000100,102464225
+Mergesort - Best Case,2000100,419346871
+Mergesort - Average Case,2000100,348483760
+Mergesort - Worst Case,2000100,327284637
+Middle Pivot - Worst Case,2050100,89327966
+Random Pivot - Worst Case,2050100,422110973
+End Pivot - Worst Case,2050100,107409910
+Mergesort - Best Case,2050100,422791707
+Mergesort - Average Case,2050100,366560977
+Mergesort - Worst Case,2050100,327589120
+Middle Pivot - Worst Case,2100100,95906351
+Random Pivot - Worst Case,2100100,417546368
+End Pivot - Worst Case,2100100,103624165
+Mergesort - Best Case,2100100,446207216
+Mergesort - Average Case,2100100,360922374
+Mergesort - Worst Case,2100100,341365862
+Middle Pivot - Worst Case,2150100,97860145
+Random Pivot - Worst Case,2150100,413687230
+End Pivot - Worst Case,2150100,104759223
+Mergesort - Best Case,2150100,427992584
+Mergesort - Average Case,2150100,361510131
+Mergesort - Worst Case,2150100,340988959
+Middle Pivot - Worst Case,2200100,102564046
+Random Pivot - Worst Case,2200100,429398969
+End Pivot - Worst Case,2200100,108735491
+Mergesort - Best Case,2200100,455217990
+Mergesort - Average Case,2200100,377402405
+Mergesort - Worst Case,2200100,361482437
+Middle Pivot - Worst Case,2250100,98014756
+Random Pivot - Worst Case,2250100,443889336
+End Pivot - Worst Case,2250100,115673185
+Mergesort - Best Case,2250100,443970101
+Mergesort - Average Case,2250100,378813119
+Mergesort - Worst Case,2250100,369811144
+Middle Pivot - Worst Case,2300100,105850763
+Random Pivot - Worst Case,2300100,472490755
+End Pivot - Worst Case,2300100,115073685
+Mergesort - Best Case,2300100,469769345
+Mergesort - Average Case,2300100,389060412
+Mergesort - Worst Case,2300100,366028073
+Middle Pivot - Worst Case,2350100,104094809
+Random Pivot - Worst Case,2350100,456889651
+End Pivot - Worst Case,2350100,124662223
+Mergesort - Best Case,2350100,480687096
+Mergesort - Average Case,2350100,391991308
+Mergesort - Worst Case,2350100,372665648
+Middle Pivot - Worst Case,2400100,107102925
+Random Pivot - Worst Case,2400100,471161314
+End Pivot - Worst Case,2400100,127034109
+Mergesort - Best Case,2400100,495253816
+Mergesort - Average Case,2400100,403546862
+Mergesort - Worst Case,2400100,388692204
+Middle Pivot - Worst Case,2450100,109410345
+Random Pivot - Worst Case,2450100,470625865
+End Pivot - Worst Case,2450100,123670152
+Mergesort - Best Case,2450100,470403783
+Mergesort - Average Case,2450100,362940607
+Mergesort - Worst Case,2450100,349222285
+Middle Pivot - Worst Case,2500100,114348098
+Random Pivot - Worst Case,2500100,520378467
+End Pivot - Worst Case,2500100,134932689
+Mergesort - Best Case,2500100,498482480
+Mergesort - Average Case,2500100,376174816
+Mergesort - Worst Case,2500100,353962378
+Middle Pivot - Worst Case,2550100,116928549
+Random Pivot - Worst Case,2550100,507043164
+End Pivot - Worst Case,2550100,138113513
+Mergesort - Best Case,2550100,374993691
+Mergesort - Average Case,2550100,392805261
+Mergesort - Worst Case,2550100,363395734
+Middle Pivot - Worst Case,2600100,131872028
+Random Pivot - Worst Case,2600100,513920290
+End Pivot - Worst Case,2600100,167224262
+Mergesort - Best Case,2600100,420735629
+Mergesort - Average Case,2600100,428391729
+Mergesort - Worst Case,2600100,408840906
+Middle Pivot - Worst Case,2650100,136241432
+Random Pivot - Worst Case,2650100,519835286
+End Pivot - Worst Case,2650100,138043595
+Mergesort - Best Case,2650100,501887597
+Mergesort - Average Case,2650100,492618308
+Mergesort - Worst Case,2650100,486756312
+Middle Pivot - Worst Case,2700100,127499209
+Random Pivot - Worst Case,2700100,537697850
+End Pivot - Worst Case,2700100,161175119
+Mergesort - Best Case,2700100,612866884
+Mergesort - Average Case,2700100,506847194
+Mergesort - Worst Case,2700100,470703360
+Middle Pivot - Worst Case,2750100,126187670
+Random Pivot - Worst Case,2750100,534914399
+End Pivot - Worst Case,2750100,142552062
+Mergesort - Best Case,2750100,602288977
+Mergesort - Average Case,2750100,523832095
+Mergesort - Worst Case,2750100,506689135
+Middle Pivot - Worst Case,2800100,131440482
+Random Pivot - Worst Case,2800100,568888221
+End Pivot - Worst Case,2800100,148864559
+Mergesort - Best Case,2800100,624237026
+Mergesort - Average Case,2800100,528355364
+Mergesort - Worst Case,2800100,489834465
+Middle Pivot - Worst Case,2850100,136553404
+Random Pivot - Worst Case,2850100,558638036
+End Pivot - Worst Case,2850100,148706215
+Mergesort - Best Case,2850100,624833113
+Mergesort - Average Case,2850100,527906296
+Mergesort - Worst Case,2850100,511117812
+Middle Pivot - Worst Case,2900100,141899974
+Random Pivot - Worst Case,2900100,588202655
+End Pivot - Worst Case,2900100,159508952
+Mergesort - Best Case,2900100,669599934
+Mergesort - Average Case,2900100,554907526
+Mergesort - Worst Case,2900100,530132559
+Middle Pivot - Worst Case,2950100,141886878
+Random Pivot - Worst Case,2950100,593685938
+End Pivot - Worst Case,2950100,163544436
+Mergesort - Best Case,2950100,657853924
+Mergesort - Average Case,2950100,551676906
+Mergesort - Worst Case,2950100,515715279
+Middle Pivot - Worst Case,3000100,146793818
+Random Pivot - Worst Case,3000100,605938890
+End Pivot - Worst Case,3000100,160373231
+Mergesort - Best Case,3000100,682130417
+Mergesort - Average Case,3000100,501951328
+Mergesort - Worst Case,3000100,488648388
+Middle Pivot - Worst Case,3050100,146791089
+Random Pivot - Worst Case,3050100,625852425
+End Pivot - Worst Case,3050100,172978794
+Mergesort - Best Case,3050100,664266766
+Mergesort - Average Case,3050100,516219477
+Mergesort - Worst Case,3050100,483130567
+Middle Pivot - Worst Case,3100100,148383204
+Random Pivot - Worst Case,3100100,625314970
+End Pivot - Worst Case,3100100,170832729
+Mergesort - Best Case,3100100,640303616
+Mergesort - Average Case,3100100,526297977
+Mergesort - Worst Case,3100100,512263839
+Middle Pivot - Worst Case,3150100,153756537
+Random Pivot - Worst Case,3150100,628436969
+End Pivot - Worst Case,3150100,181443991
+Mergesort - Best Case,3150100,621945186
+Mergesort - Average Case,3150100,528348622
+Mergesort - Worst Case,3150100,500556883
+Middle Pivot - Worst Case,3200100,161659517
+Random Pivot - Worst Case,3200100,649746193
+End Pivot - Worst Case,3200100,175278791
+Mergesort - Best Case,3200100,520864911
+Mergesort - Average Case,3200100,531224106
+Mergesort - Worst Case,3200100,507890767
+Middle Pivot - Worst Case,3250100,168979634
+Random Pivot - Worst Case,3250100,653923546
+End Pivot - Worst Case,3250100,174516954
+Mergesort - Best Case,3250100,612191789
+Mergesort - Average Case,3250100,595119310
+Mergesort - Worst Case,3250100,564862435
+Middle Pivot - Worst Case,3300100,162088578
+Random Pivot - Worst Case,3300100,661943481
+End Pivot - Worst Case,3300100,176479839
+Mergesort - Best Case,3300100,722299645
+Mergesort - Average Case,3300100,611934420
+Mergesort - Worst Case,3300100,583960311
+Middle Pivot - Worst Case,3350100,162672284
+Random Pivot - Worst Case,3350100,684522116
+End Pivot - Worst Case,3350100,181957562
+Mergesort - Best Case,3350100,721588521
+Mergesort - Average Case,3350100,614814864
+Mergesort - Worst Case,3350100,585741509
+Middle Pivot - Worst Case,3400100,174333359
+Random Pivot - Worst Case,3400100,677847152
+End Pivot - Worst Case,3400100,186155567
+Mergesort - Best Case,3400100,741055421
+Mergesort - Average Case,3400100,638140960
+Mergesort - Worst Case,3400100,618109556
+Middle Pivot - Worst Case,3450100,163968406
+Random Pivot - Worst Case,3450100,700603572
+End Pivot - Worst Case,3450100,188046372
+Mergesort - Best Case,3450100,739969512
+Mergesort - Average Case,3450100,595659637
+Mergesort - Worst Case,3450100,637834236
+Middle Pivot - Worst Case,3500100,165804073
+Random Pivot - Worst Case,3500100,702003253
+End Pivot - Worst Case,3500100,184746776
+Mergesort - Best Case,3500100,768976609
+Mergesort - Average Case,3500100,583454253
+Mergesort - Worst Case,3500100,566673899
+Middle Pivot - Worst Case,3550100,166312995
+Random Pivot - Worst Case,3550100,738708900
+End Pivot - Worst Case,3550100,196814381
+Mergesort - Best Case,3550100,767610696
+Mergesort - Average Case,3550100,626846499
+Mergesort - Worst Case,3550100,592680910
+Middle Pivot - Worst Case,3600100,174054368
+Random Pivot - Worst Case,3600100,755517927
+End Pivot - Worst Case,3600100,199718023
+Mergesort - Best Case,3600100,602082164
+Mergesort - Average Case,3600100,629025655
+Mergesort - Worst Case,3600100,591282543
+Middle Pivot - Worst Case,3650100,184808636
+Random Pivot - Worst Case,3650100,752224194
+End Pivot - Worst Case,3650100,191146602
+Mergesort - Best Case,3650100,591927829
+Mergesort - Average Case,3650100,642942095
+Mergesort - Worst Case,3650100,627125092
+Middle Pivot - Worst Case,3700100,175243003
+Random Pivot - Worst Case,3700100,768969508
+End Pivot - Worst Case,3700100,204925253
+Mergesort - Best Case,3700100,787663326
+Mergesort - Average Case,3700100,651178481
+Mergesort - Worst Case,3700100,617621739
+Middle Pivot - Worst Case,3750100,179294238
+Random Pivot - Worst Case,3750100,784096701
+End Pivot - Worst Case,3750100,209432964
+Mergesort - Best Case,3750100,624638449
+Mergesort - Average Case,3750100,642601358
+Mergesort - Worst Case,3750100,618708693
+Middle Pivot - Worst Case,3800100,191576847
+Random Pivot - Worst Case,3800100,775526781
+End Pivot - Worst Case,3800100,199748835
+Mergesort - Best Case,3800100,617065431
+Mergesort - Average Case,3800100,636757898
+Mergesort - Worst Case,3800100,610899301
+Middle Pivot - Worst Case,3850100,196846863
+Random Pivot - Worst Case,3850100,795628015
+End Pivot - Worst Case,3850100,207546840
+Mergesort - Best Case,3850100,743175142
+Mergesort - Average Case,3850100,732180408
+Mergesort - Worst Case,3850100,704187081
+Middle Pivot - Worst Case,3900100,199854206
+Random Pivot - Worst Case,3900100,824829826
+End Pivot - Worst Case,3900100,211117563
+Mergesort - Best Case,3900100,902012483
+Mergesort - Average Case,3900100,750188420
+Mergesort - Worst Case,3900100,703424328
+Middle Pivot - Worst Case,3950100,193048625
+Random Pivot - Worst Case,3950100,840651171
+End Pivot - Worst Case,3950100,218494286
+Mergesort - Best Case,3950100,859684190
+Mergesort - Average Case,3950100,737514818
+Mergesort - Worst Case,3950100,699055836
+Middle Pivot - Worst Case,4000100,182867110
+Random Pivot - Worst Case,4000100,809425990
+End Pivot - Worst Case,4000100,205960594
+Mergesort - Best Case,4000100,839508069
+Mergesort - Average Case,4000100,769876436
+Mergesort - Worst Case,4000100,729958436
+Middle Pivot - Worst Case,4050100,187630357
+Random Pivot - Worst Case,4050100,863486016
+End Pivot - Worst Case,4050100,224501150
+Mergesort - Best Case,4050100,890794647
+Mergesort - Average Case,4050100,790281326
+Mergesort - Worst Case,4050100,720661185
+Middle Pivot - Worst Case,4100100,194317897
+Random Pivot - Worst Case,4100100,862252270
+End Pivot - Worst Case,4100100,214284808
+Mergesort - Best Case,4100100,850421253
+Mergesort - Average Case,4100100,756005128
+Mergesort - Worst Case,4100100,721770118
+Middle Pivot - Worst Case,4150100,187645894
+Random Pivot - Worst Case,4150100,836651405
+End Pivot - Worst Case,4150100,209694973
+Mergesort - Best Case,4150100,886443570
+Mergesort - Average Case,4150100,765039902
+Mergesort - Worst Case,4150100,756636653
+Middle Pivot - Worst Case,4200100,190753020
+Random Pivot - Worst Case,4200100,867214441
+End Pivot - Worst Case,4200100,240393623
+Mergesort - Best Case,4200100,933074520
+Mergesort - Average Case,4200100,828201091
+Mergesort - Worst Case,4200100,757077875
+Middle Pivot - Worst Case,4250100,195477980
+Random Pivot - Worst Case,4250100,881889010
+End Pivot - Worst Case,4250100,228972399
+Mergesort - Best Case,4250100,986597779
+Mergesort - Average Case,4250100,799956915
+Mergesort - Worst Case,4250100,749210765
+Middle Pivot - Worst Case,4300100,196424296
+Random Pivot - Worst Case,4300100,865080196
+End Pivot - Worst Case,4300100,220719575
+Mergesort - Best Case,4300100,968454648
+Mergesort - Average Case,4300100,837371315
+Mergesort - Worst Case,4300100,786836242
+Middle Pivot - Worst Case,4350100,203618090
+Random Pivot - Worst Case,4350100,896638273
+End Pivot - Worst Case,4350100,223647102
+Mergesort - Best Case,4350100,971892803
+Mergesort - Average Case,4350100,847582906
+Mergesort - Worst Case,4350100,787495321
+Middle Pivot - Worst Case,4400100,199295642
+Random Pivot - Worst Case,4400100,917153154
+End Pivot - Worst Case,4400100,237297495
+Mergesort - Best Case,4400100,973232484
+Mergesort - Average Case,4400100,834703076
+Mergesort - Worst Case,4400100,790702264
+Middle Pivot - Worst Case,4450100,201595437
+Random Pivot - Worst Case,4450100,919365040
+End Pivot - Worst Case,4450100,242689403
+Mergesort - Best Case,4450100,987416318
+Mergesort - Average Case,4450100,836284986
+Mergesort - Worst Case,4450100,797144655
+Middle Pivot - Worst Case,4500100,205524174
+Random Pivot - Worst Case,4500100,939392910
+End Pivot - Worst Case,4500100,245374484
+Mergesort - Best Case,4500100,982271391
+Mergesort - Average Case,4500100,839072251
+Mergesort - Worst Case,4500100,791696320
+Middle Pivot - Worst Case,4550100,206910480
+Random Pivot - Worst Case,4550100,943741985
+End Pivot - Worst Case,4550100,237230927
+Mergesort - Best Case,4550100,985852364
+Mergesort - Average Case,4550100,843147977
+Mergesort - Worst Case,4550100,801589497
+Middle Pivot - Worst Case,4600100,210347896
+Random Pivot - Worst Case,4600100,966096095
+End Pivot - Worst Case,4600100,246777358
+Mergesort - Best Case,4600100,1041703536
+Mergesort - Average Case,4600100,872750461
+Mergesort - Worst Case,4600100,822501080
+Middle Pivot - Worst Case,4650100,220283829
+Random Pivot - Worst Case,4650100,962416034
+End Pivot - Worst Case,4650100,244203264
+Mergesort - Best Case,4650100,998606562
+Mergesort - Average Case,4650100,856548826
+Mergesort - Worst Case,4650100,819679136
+Middle Pivot - Worst Case,4700100,216524105
+Random Pivot - Worst Case,4700100,1001085007
+End Pivot - Worst Case,4700100,259009338
+Mergesort - Best Case,4700100,1102979758
+Mergesort - Average Case,4700100,1000943945
+Mergesort - Worst Case,4700100,945924695
+Middle Pivot - Worst Case,4750100,315093282
+Random Pivot - Worst Case,4750100,1030189361
+End Pivot - Worst Case,4750100,266512292
+Mergesort - Best Case,4750100,1088855763
+Mergesort - Average Case,4750100,941920470
+Mergesort - Worst Case,4750100,922979864
+Middle Pivot - Worst Case,4800100,232846893
+Random Pivot - Worst Case,4800100,1012291217
+End Pivot - Worst Case,4800100,261727617
+Mergesort - Best Case,4800100,1044238276
+Mergesort - Average Case,4800100,897071359
+Mergesort - Worst Case,4800100,850382540
+Middle Pivot - Worst Case,4850100,225592202
+Random Pivot - Worst Case,4850100,995194439
+End Pivot - Worst Case,4850100,263224166
+Mergesort - Best Case,4850100,1032084552
+Mergesort - Average Case,4850100,895902139
+Mergesort - Worst Case,4850100,857935212

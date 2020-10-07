@@ -1,0 +1,4 @@
+/Users/derekolson/DerekOlson/CS6015/Parser/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/derekolson/DerekOlson/CS6015/Parser/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/derekolson/DerekOlson/CS6015/Parser/cmake-build-debug/CMakeFiles/MSDLib.dir
+/Users/derekolson/DerekOlson/CS6015/Parser/cmake-build-debug/CMakeFiles/Parser.dir

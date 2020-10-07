@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Circle?>
+
+<VBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.synthesizer.Views.VolumeFilterController"
+      maxHeight="300" maxWidth="100" spacing="10" alignment="CENTER"
+      style="-fx-border-color:black" fx:id="volumeController" onDragDetected="#drag" id="volumeController">
+    <children>
+        <Label fx:id="label" text="Volume" />
+        <Circle id="audioJackInput" fx:id="audioJackInput" styleClass="audioJack" radius="10" onMousePressed="#consume" />
+        <Slider fx:id="slider"  majorTickUnit="2.0" max="11.0" min="0"
+                minorTickCount="4" prefWidth="200.0" showTickLabels="false" showTickMarks="true"
+                snapToTicks="true" onDragDetected="#onSlideDetected" orientation="VERTICAL"/>
+        <Circle id="audioJackOutput" fx:id="audioJackOutput" styleClass="audioJack" radius="10" onMousePressed="#consume" />
+        <Label fx:id="value" text="0" />
+    </children>
+</VBox>

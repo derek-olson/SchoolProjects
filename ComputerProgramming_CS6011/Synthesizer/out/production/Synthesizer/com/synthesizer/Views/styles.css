@@ -1,0 +1,98 @@
+.root{-fx-background-image: url("surf.jpg");
+    -fx-background-size: cover;
+}
+
+#sine{-fx-background-image: url("sinewave.jpg");
+    -fx-background-size: contain;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,4 );
+}
+
+#square{-fx-background-image: url("squarewave.jpg");
+    -fx-background-size: contain;
+    -fx-background-color:transparent;
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,4 );
+}
+
+#mixer{-fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #0da3a3 0%, #070d90 100%),
+            #22259d,
+            #1c6ed8,
+            radial-gradient(center 50% 50%, radius 100%, #1aa7d8, #1b19c5);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,4 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+
+#volume{-fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #a34313 0%, #903b12 100%),
+            #9d4024,
+            #d86e3a,
+            radial-gradient(center 50% 50%, radius 100%, #ff5f5a, #c54e2c);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,4 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+#speaker{-fx-padding: 8 15 15 15;
+    -fx-background-insets: 0,0 0 5 0, 0 0 6 0, 0 0 7 0;
+    -fx-background-radius: 8;
+    -fx-background-color:
+            linear-gradient(from 0% 93% to 0% 100%, #68a389 0%, #6f9070 100%),
+            #75907c,
+            #10a305,
+            radial-gradient(center 50% 50%, radius 100%, #05a307, #902418);
+    -fx-effect: dropshadow( gaussian , rgba(0,0,0,0.75) , 4,0,0,4 );
+    -fx-font-weight: bold;
+    -fx-font-size: 1.1em;
+}
+ #sineWaveFrequencyControl{-fx-border-color:black;
+     -fx-background-color:transparent;
+     -fx-font-family: Chalkboard;
+     -fx-font-weight: bold;
+     -fx-font-size: 18;
+     -fx-alignment: center;
+ }
+
+#squareWaveFrequencyControl{-fx-border-color:black;
+    -fx-background-color:transparent;
+    -fx-font-family: Chalkboard;
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+    -fx-alignment: center;
+}
+ #mixerImageContainer{-fx-font-family: Chalkboard;
+     -fx-font-weight: bold;
+     -fx-font-size: 24;
+     -fx-alignment: center;
+ }
+
+ #volumeController{-fx-font-family: Chalkboard;
+     -fx-font-weight: bold;
+     -fx-font-size: 18;
+     -fx-alignment: center;}
+
+#speakerControl{-fx-font-family: Chalkboard;
+    -fx-font-weight: bold;
+    -fx-font-size: 18;
+    -fx-alignment: center;}
+
+ .audioJack{-fx-border-color:palegreen;
+     -fx-background-color:
+             linear-gradient(from 0% 93% to 0% 100%, #68a389 0%, #6f9070 100%),
+             #75907c,
+             #10a305,
+             radial-gradient(center 50% 50%, radius 100%, #05a307, #902418);
+ -fx-alignment:center-right;}
+
+#slider .track{
+     -fx-control-inner-background: palegreen;
+ }
+
+#slider .axis .axis-tick-mark, #slider .axis .axis-minor-tick-mark{
+     -fx-stroke: palegreen;
+ }

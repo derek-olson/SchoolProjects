@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/derekolson/DerekOlson/CS6013/Malloc_Replacement/Hash.h
+cstdlib
+-
+unordered_map
+-
+
+/Users/derekolson/DerekOlson/CS6013/Malloc_Replacement/main.cpp
+iostream
+-
+Hash.h
+/Users/derekolson/DerekOlson/CS6013/Malloc_Replacement/Hash.h
+chrono
+-
+

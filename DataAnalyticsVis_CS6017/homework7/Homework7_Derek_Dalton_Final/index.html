@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Covid-19 Data</title>
+    <style>
+        #main {
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+        }
+        #stateDiv {
+            width: 15%;
+            height: 850px;
+            overflow-y: scroll;
+            display: inline-block;
+            direction: ltr;
+        }
+
+        div {
+            border: 3px solid black;
+        }
+
+        .selected {
+            background: red;
+        }
+
+        svg {
+            border: 3px solid blue;
+            display: block;
+            width: 100%
+        }
+        #visHolder {
+            width: 60%;
+            height: 850px;
+            display: inline-block;
+            direction: ltr;
+        }
+        #USMap {
+            height: 600px;
+        }
+        #slider {
+            height: 240px;
+        }
+        #rhs {
+            width: 20%;
+            height: 850px;
+            display: inline-block;
+            direction: ltr;
+            position: absolute;
+        }
+        #date {
+            height: 60px;
+        }
+        #chart {
+            height: 800px;
+            overflow: scroll;
+        }
+        #sorting {
+            height: 900px;
+
+        }
+        #replay {
+            color:white;
+            width: 50%;
+            background-color: #555555;
+            border-radius: 12px;
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+            font-size: 16px;
+            position: absolute;
+            right: 5px;
+            top: 35px;
+        }
+        .states :hover {
+            fill: red;
+        }
+        .state-borders {
+            fill: none;
+            stroke: #fff;
+            stroke-width: 0.5px;
+            stroke-linejoin: round;
+            stroke-linecap: round;
+            pointer-events: none;
+        }
+    </style>
+</head>
+<body>
+    <script src = "https://d3js.org/d3-array.v2.min.js"></script>
+    <script type="text/javascript" src="https://d3js.org/d3.v5.min.js"></script>
+    <script src="https://d3js.org/topojson.v2.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <script type="text/javascript" src="chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <div id="main">
+        <div id="stateDiv"></div>
+        <div id="visHolder">
+            <svg id="USMap"></svg>
+            <div id="lineChart"></div>
+        </div>
+        <div id="rhs">
+            <div id="date">
+                <button type="button" id="replay" onclick="window.location.reload();">Replay</button>
+                
+            </div>
+            <div id="chart">
+                <svg id="sorting"></svg>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

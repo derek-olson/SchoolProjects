@@ -1,0 +1,67 @@
+---
+title: "lab05"
+author: "Derek Olson"
+date: "11/13/2019"
+output:
+  html_document: default
+  word_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Question 1:
+
+From an implementation perspective it would have been more efficient to back the sorted set with a Java list. This is due to the fact that Java Lists are part of the standard library and have methods already defined.This makes Java lists more flexible to work with. 
+
+However, arrays more efficienlty perform get and set operations. In many instances this performace gain may only be in the realm of nanoseconds.  
+
+Question 2:
+
+I expect the contains function to have a Big-O behavior of logN as the sorted set allows for a binary search to determine if the element is contained or not. The binary search uses the sorted nature of the set to systematically drop (not search) large chunks of the set. 
+
+```{r}
+#Question 3:
+library(readr)
+data <- read_csv("timesContains.csv", col_names = FALSE)
+colnames(data) = c("Size", "Time")
+plot(data$Size, data$Time, type = "l")
+```
+
+```{r}
+model = lm(data$Time ~ data$Size)
+summary(model)
+plot(model)
+```
+
+
+```{r}
+data['log_size'] = log2(data$Size)
+data['log_time'] = log2(data$Time)
+```
+
+```{r}
+plot(data$log_size, data$log_time, type = "l", log="xy")
+```
+
+The plots do not match my expectations. The run times trend lower as the size of the set becomes larger. I expected the run times to become larger at a very slow rate as the set became larger.
+
+Question 4:
+
+I am really not understanding this question. I think it can be interpreted 2 different ways. The first is how long it takes to determine the location of the insertion given a set of size N, which is just doing a binary search on size N. This is exaclty the same question as above, at least how I am interpreting it. This would result in a big-O complexity of logN because a binary seacrh has a big-O complexity of logN. 
+
+How I am going to analyze question 4 to differentiate it from question 3 is by timing the full add element method into a sorted set given a set of size N. This should result in a logN time for the binary search and a N time for the actual insertion. This is N+logN which is a big-O complexity of N.  
+
+```{r}
+data_add <- read_csv("timesAdd.csv", col_names = FALSE)
+colnames(data_add) = c("Size", "Time")
+plot(data_add$Size, data_add$Time, type = "l")
+```
+
+```{r}
+data_add['log_size'] = log2(data_add$Size)
+data_add['log_time'] = log2(data_add$Time)
+plot(data_add$log_size, data_add$log_time, type = "l", log="xy")
+```
+

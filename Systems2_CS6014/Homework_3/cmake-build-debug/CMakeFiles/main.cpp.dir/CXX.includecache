@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/derekolson/DerekOlson/CS6014/Homework_3/Key.cpp
+string
+-
+Key.h
+/Users/derekolson/DerekOlson/CS6014/Homework_3/Key.h
+
+/Users/derekolson/DerekOlson/CS6014/Homework_3/Key.h
+
+/Users/derekolson/DerekOlson/CS6014/Homework_3/Tables.cpp
+iostream
+-
+random
+/Users/derekolson/DerekOlson/CS6014/Homework_3/random
+algorithm
+/Users/derekolson/DerekOlson/CS6014/Homework_3/algorithm
+Tables.h
+/Users/derekolson/DerekOlson/CS6014/Homework_3/Tables.h
+iterator
+/Users/derekolson/DerekOlson/CS6014/Homework_3/iterator
+
+/Users/derekolson/DerekOlson/CS6014/Homework_3/Tables.h
+cstdint
+-
+

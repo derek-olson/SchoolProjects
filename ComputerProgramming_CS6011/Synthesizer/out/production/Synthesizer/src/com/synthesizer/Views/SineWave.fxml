@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.geometry.Insets?>
+<VBox id="sineWaveFrequencyControl" xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="com.synthesizer.Views.SineWaveController"
+      minHeight="100.0" minWidth="300.0"
+      spacing="10" alignment="CENTER"
+      onDragDetected="#drag" fx:id="sinePane" managed="true">
+    <children>
+        <Label fx:id="label" text="Sine Wave Frequency" />
+        <HBox spacing="40">
+            <padding><Insets left="20" top="20" bottom="20" right="20"/></padding>
+            <Slider fx:id="slider"  majorTickUnit="1000.0" max="10000.0" min="100"
+                    minorTickCount="5"  minWidth="200.0" showTickLabels="false" showTickMarks="true"
+                    snapToTicks="true" onDragDetected="#onSlideDetected" />
+            <Circle id="sineWaveOutputJack" fx:id="sineWaveOutputJack" styleClass="audioJack" radius="10" onMousePressed="#consume"  />
+        </HBox>
+        <Label fx:id="value" text="100" />
+    </children>
+</VBox>

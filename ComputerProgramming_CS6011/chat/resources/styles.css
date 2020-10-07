@@ -1,0 +1,17 @@
+
+.row.vertical-divider {
+    overflow: hidden;
+}
+.row.vertical-divider > div[class^="col-"] {
+    text-align: center;
+    padding-bottom: 100px;
+    margin-bottom: -100px;
+    border-left: 3px solid #000000;
+    border-right: 3px solid #000000;
+}
+.row.vertical-divider div[class^="col-"]:first-child {
+    border-left: #000000;
+}
+.row.vertical-divider div[class^="col-"]:last-child {
+    border-right: #000000;
+}

@@ -1,0 +1,18 @@
+{
+  "name": "node_chat_server",
+  "version": "1.0.0",
+  "description": "node chat server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "derek olson",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mime-type": "^3.0.7",
+    "mime-types": "^2.1.24",
+    "request": "^2.88.0",
+    "websocket": "^1.0.30"
+  }
+}

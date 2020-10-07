@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+    <div id="newDiv">
+
+    </div>
+</body>
+<script type="text/javascript">
+    document.writeln("hello world");
+    console.log("hello world");
+    var x = [1, "string", true, 3.14, {a:2, b:"string", c:false}];
+    console.log(x);
+    function f(a, b){return a+b;}
+    var g = function(a,b){return a+b}
+    var z = f(x[0],x[4].a);
+    console.log(z);
+    var y = g(x[0], x[4].a);
+    console.log(y);
+</script>
+<script type="text/javascript" src="js/script.js"></script>
+</html>

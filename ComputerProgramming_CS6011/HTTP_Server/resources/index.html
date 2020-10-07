@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat App</title>
+
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.11.4/themes/south-street/jquery-ui.css">
+
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.0/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js" charset="utf-8"></script>
+</head>
+<body>
+<div>
+    <div class="row vertical-divider" style="margin-top: 20px">
+        <div class="col-xs-6">
+            <h3>User Name</h3>
+            <textarea id="username" rows="2" cols="50" required="required"></textarea>
+            <h3>Chat Room</h3>
+            <textarea id="chatroom" rows="2" cols="50" style="border-style: double" required="required"></textarea>
+            <h3></h3>
+            <button id="chatRoomButton">Enter Room</button>
+            <h3></h3>
+            <textarea style="border-style: solid; border-color: black; background-color: lightskyblue " rows="20" cols="50"></textarea>
+        </div>
+    <div class="row horizontal-divider" style="margin-top: 30px">
+        <div class="col-xs-6">
+            <h3 style="align-items: center">Messages:</h3>
+            <textarea id="messages" rows="25" cols="100" readonly="readonly" ></textarea>
+            <textarea id="message" rows="2" cols="100"></textarea>
+            <button id="sendMessageButton">Send Message</button>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+<script type="text/javascript" src="script.js"></script>
+</html>

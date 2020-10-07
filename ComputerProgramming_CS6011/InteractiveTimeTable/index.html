@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Times Table</title>
+    <style>
+        html, body {
+            font-family: arial;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        table tr td {
+            border: 1px solid #000;
+            padding: 10px;
+        }
+
+        .clicked{
+           background-color: #721c24;
+        }
+        .background{
+            background-color: #6f42c1;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="container"></div>
+</body>
+<script type="text/javascript">
+
+    var x = document.createElement("TABLE");
+    x.id = "Table";
+    console.log(x.id);
+
+    var matrix = [];
+    for (var i = 0; i < 9; i++) {
+        matrix[i] = [];
+        for (var j = 0; j < 9; j++) {
+            matrix[i][j] = i * j;
+        }
+    }
+    console.log(matrix);
+
+    for (var i=0; i<matrix.length; i++){
+        var row = x.insertRow(i);
+        for (var j = 0; j < matrix.length; j++){
+            var cell = row.insertCell(j);
+            cell.innerHTML = matrix[i][j];
+            cell.addEventListener("mouseover", function(){this.style.color='#F0F'});
+            cell.addEventListener("mouseout", function(){this.style.color='#000000'});
+            cell.addEventListener("click", function(){
+                var z = document.getElementsByClassName("clicked");
+                for(var i=0; i<z.length;i++){z[i].classList.remove("clicked")}
+                this.classList.add("clicked")});
+        }
+    }
+
+    function setColor() {
+        var x = document.body;
+        x.style.backgroundColor = x.style.backgroundColor == "yellow" ? "pink" : "yellow";
+    }
+
+    document.getElementById("container").appendChild(x);
+    window.setInterval(function(){setColor()}, 300)
+</script>
+</html>

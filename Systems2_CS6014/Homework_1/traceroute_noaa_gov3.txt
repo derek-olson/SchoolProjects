@@ -1,0 +1,18 @@
+ 1  192.168.1.1 (192.168.1.1)  2.318 ms  1.805 ms  1.767 ms
+ 2  10.26.2.42 (10.26.2.42)  3.597 ms  2.630 ms  2.656 ms
+ 3  23-255-225-20.mci.googlefiber.net (23.255.225.20)  3.229 ms  3.071 ms  12.121 ms
+ 6  23-255-225-164.mci.googlefiber.net (23.255.225.164)  21.463 ms  17.632 ms  17.482 ms
+ 7  ix-ae-61-0.tcore1.sqn-san-jose.as6453.net (216.6.33.138)  17.375 ms  17.607 ms  17.727 ms
+ 8  if-ae-1-2.tcore2.sqn-san-jose.as6453.net (63.243.205.2)  18.778 ms  18.632 ms  19.004 ms
+ 9  if-ae-5-2.tcore2.pdi-palo-alto.as6453.net (64.86.21.2)  18.898 ms
+10  palo-b1-link.telia.net (213.248.75.181)  18.286 ms  37.450 ms  48.559 ms
+11  sjo-b21-link.telia.net (62.115.115.217)  20.028 ms  20.019 ms  19.675 ms
+12  den-b1-link.telia.net (213.155.133.170)  54.202 ms  54.296 ms  53.938 ms
+13  frontrange-ic-328309-den-b1.c.telia.net (62.115.63.79)  54.314 ms  86.136 ms  54.231 ms
+14  et-5-2-1.807.brtr.denv15th.nwave.noaa.gov (137.75.72.152)  65.445 ms  54.126 ms  54.719 ms
+15  lo-0.1.brtr.denv.nwave.noaa.gov (137.75.100.3)  54.503 ms  50.899 ms  50.692 ms
+16  137.75.72.11 (137.75.72.11)  50.629 ms  51.073 ms  51.133 ms
+17  irb.3903.rtr3.denv.nwave.noaa.gov (137.75.72.12)  51.465 ms  50.433 ms  50.210 ms
+18  ae-4.0.rtr.denv.nwave.noaa.gov (140.172.70.139)  57.751 ms  57.837 ms  57.581 ms
+19  lo-0.1.rtr.boul.nwave.noaa.gov (140.172.112.5)  69.365 ms  65.209 ms  58.121 ms
+20  137.75.72.66 (137.75.72.66)  413.438 ms  186.966 ms  206.646 ms

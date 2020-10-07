@@ -1,0 +1,14 @@
+//
+// Created by Derek Olson on 3/30/20.
+//
+
+#ifndef THREADSAFEQUEUE_SERIALQUEUETESTS_H
+#define THREADSAFEQUEUE_SERIALQUEUETESTS_H
+
+
+class SerialQueueTests {
+
+};
+
+
+#endif //THREADSAFEQUEUE_SERIALQUEUETESTS_H

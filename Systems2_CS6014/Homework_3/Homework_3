@@ -1,0 +1,9 @@
+Question 1:
+A 8 bit block cypher is easily broken by a brute force attack by simply trying all possibilities. 
+Stratagies include starting with the short words, try to get the common letters,look for patterns in repeated letters, look for common two letter combinations and common word endings.
+
+Question 2:
+a: Size of the input message is the size of the output message, so knowing the block size could allow an attacker to generate bad blocks. Duplicates could be recognised allowing attackers to pick up on patterns.  
+b: The attacker could shuffle the order of the messages, or insert duplicate blocks. 
+c: Cypher block chaining can be used where you XOR each block with the previous block, and XOR the first block with an initialization vector. Also, crytographic hash functions can be used to create check sums.
+
